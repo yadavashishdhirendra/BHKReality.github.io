@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Newsreader", serif;
+}
+
+/* On Hover Top Logo Color will Be Changed To "Aqua" */
+
+.Hv:hover {
+  cursor: pointer;
+  background-color: aqua;
+  transition: 0.7s ease-in-out;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Ml {
+    margin-left: 10px !important;
+  }
+}
+
+/* Navbar Portion */
+
+.nav-item {
+  font-size: 1.12rem;
+  font-weight: bolder;
+}
+
+.nav-link:hover {
+  color: green !important;
+  transition: 0.6s ease-in-out;
+}
+
+/* Removing Borders around Icons */
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler {
+  border-color: green !important;
+}
+
+/* Adjusting Width & Height of Carausel */
+
+.w-100 {
+  height: 80vh !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .w-100 {
+    height: 45vh !important;
+  }
+}
+
+#Image1 {
+  width: 100%;
+}
+
+.Text2 {
+  text-align: justify;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Data {
+    flex-direction: column;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #Data {
+    flex-direction: column;
+  }
+}
+
+.Logo_Section {
+  width: 50%;
+}
+
+.Logo_Section:hover {
+  background-color: rgba(255, 0, 0, 0.493) !important;
+  transition: .6s ease-in;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Data1 {
+    flex-direction: column;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #Data1 {
+    flex-direction: column;
+  }
+}
+
+.btn-outline-success:hover {
+  transition: .7s ease-in-out !important;
+}
+
+.btn-outline-success:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.Text4 {
+  margin-bottom: 5px !important;
+}
+
+#Data3 {
+  width: 100%;
+  margin: 15px 80px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Data3 {
+    flex-direction: column;
+    width: 100%;
+    margin: 17px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #Data3 {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 85px;
+  }
+  .card {
+    width: 32rem !important;
+  }
+}
+
+#Data4 {
+  width: 80% !important;
+  margin: 10px 235px !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Data4 {
+    flex-direction: column;
+    width: 100% !important;
+    margin: 0px 12px !important;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #Data4 {
+    flex-direction: column;
+    width: 100% !important;
+    margin: 0px 92px !important;
+  }
+  .card {
+    width: 32rem !important;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Data5 {
+    flex-direction: column;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #Data5 {
+    flex-direction: column;
+  }
+}
+
+/* Footer */
+
+/* Smartphones (portrait and landscape) ----------- */
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+  #Datas6 {
+    margin-left: 162px !important;
+  }
+  #Datas7 {
+    margin-left: 170px !important;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #Data9 {
+    text-align: start !important;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #Data5 {
+    flex-direction: column;
+  }
+}
+
+.Info4 p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none !important;
+  border: 3px solid rgb(0, 255, 21) !important;
+  transition: .5s ease-in-out;
+  box-shadow: none !important;
+}
+
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 3px solid rgb(0, 255, 21) !important;
+  transition: .5s ease-in-out;
+}
+
+.input-group-text {
+  background-color: #29b447a8;
+}
